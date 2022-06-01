@@ -1,0 +1,30 @@
+{
+  "wen": {
+    "title": "Wen.sh",
+    "description": "Landing page for a web3 project of web3 builders that builds web3 tools to help web3 builders build web3 tools.",
+    "technologies": ["TypeScript", "Next.js", "Tailwind"],
+    "repourl": "",
+    "liveurl": "https://Wen.sh"
+  },
+  "product-page": {
+    "title": "Product Page (Frontend Mentor challenge)",
+    "description": "Product page for a Frontend Mentor challenge. (It is not responsive, I know. I learned mobile first here, sorry for that 😔)",
+    "technologies": ["Next.js", "SASS", "Node.js", "MongoDB"],
+    "repourl": "https://github.com/cxalem/product-page",
+    "liveurl": "https://product-page-theta.vercel.app/"
+  },
+  "personal-card": {
+    "title": "Personal Card",
+    "description": "Made with JavaScript Native WebComponents in order to undestand them. Pretty simple project, but it helped me to understand components based apps.",
+    "technologies": ["JavaScript", "WebComponents", "SASS"],
+    "repourl": "https://github.com/cxalem/PresentationCard",
+    "liveurl": "https://cxalem.github.io/PresentationCard/"
+  },
+  "advice-generator": {
+    "title": "Advice Generator (Frontend Mentor challenge)",
+    "description": "Very simple project that I focused on developing as quickly as possible. It took me about an hour to complete it.",
+    "technologies": ["Next.js", "SASS"],
+    "repourl": "https://github.com/cxalem/advice-generator",
+    "liveurl": "https://advice-generator-inky.vercel.app/"
+  }
+}

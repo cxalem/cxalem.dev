@@ -1,0 +1,16 @@
+{
+  "crypto-app": {
+    "title": "Crypto App",
+    "description": "A list of cryptos with their prices and additional information. You can connect your Metamask wallet and preview your balance.",
+    "technologies": ["React", "Next.js", "SASS", "Web3"],
+    "repourl": "https://github.com/cxalem/next-crypto-app",
+    "liveurl": "https://next-crypto-app-nine.vercel.app/"
+  },
+  "mag-thebay": {
+    "title": "Mag-Thebay ONG Site",
+    "description": "A site for the Mag-Thebay ONG. It is a single page application with a list of projects posted with MDX.",
+    "technologies": ["TypeScript", "Next.js", "JSON"],
+    "repourl": "https://github.com/cxalem/mag-thebay",
+    "liveurl": "https://mag-thebay-a7r847osl-cxalem.vercel.app/"
+  }
+}
