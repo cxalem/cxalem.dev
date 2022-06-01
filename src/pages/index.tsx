@@ -18,7 +18,7 @@ const Home: NextPage = () => {
   }
 
   return (
-    <div className="bg-slate-800 text-slate-50 flex min-h-screen flex-col items-center justify-center py-2">
+    <div className="bg-slate-800 text-slate-50 flex min-h-screen flex-col items-center justify-center py-10">
       <Head>
         <title>Alejandro Mena - Website</title>
         <link rel="icon" href="/favicon.ico" />
@@ -26,15 +26,15 @@ const Home: NextPage = () => {
 
       <main className="flex flex-col gap-10 max-w-screen-sm">
         <header>
-          <h1 className="text-4xl font-bold mb-5">👋 I'm Alejandro!</h1>
-          <span className="">
+          <h1 className="text-center md:text-left px-2 text-4xl font-bold mb-5">👋 I'm Alejandro!</h1>
+          <p className="text-center md:text-left px-2">
             I'm currently doing frontend, but I really love to create things, so
             my goal is to learn things that help me create other things.
-          </span>
+          </p>
         </header>
 
         <section className="">
-          <h2 className="text-3xl font-semibold mb-5">
+          <h2 className="text-center md:text-left text-3xl font-semibold mb-5">
             Projects I've worked on
           </h2>
           {mainProjects.map((project) => (
@@ -52,8 +52,8 @@ const Home: NextPage = () => {
         </section>
 
         <section>
-          <h2 className="text-3xl font-semibold mb-5">About me</h2>
-          <p>
+          <h2 className="text-center px-2 md:text-left text-3xl font-semibold mb-5">About me</h2>
+          <p className="text-center px-2 md:text-left">
             {`I'm Venezuelan but currently live in Peru. I am passionate about
             technology and personal growth. I love to sing (I'm not a good
             singer 😅), to write (I think I'm good here but I'm not doing this
