@@ -26,5 +26,12 @@
     "technologies": ["Next.js", "SASS"],
     "repourl": "https://github.com/cxalem/advice-generator",
     "liveurl": "https://advice-generator-inky.vercel.app/"
+  },
+  "books.app": {
+    "title": "Books app (interview challenge)",
+    "description": "SPA where you can search, filter and mark books as favorites. Pretty good challenge to practice intersection observer for an infinite scrolling.",
+    "technologies": ["Next.js", "TypeScript", "Tailwind"],
+    "repourl": "https://github.com/cxalem/books-app",
+    "liveurl": "https://books-app-lemon.vercel.app/"
   }
 }
