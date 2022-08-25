@@ -5,20 +5,26 @@ import ProjectCard from "../components/ProjectCard";
 import { useGetItems } from "../hooks/useGetItems";
 import mainData from "../data/ProjectsData.json";
 import moreProjectsData from "../data/ProjectsData2.json";
+import jobExperiences from "../data/JobExperiences.json";
+import { ExperienceCard } from "../components/ExperienceCard";
+import { JobDescription } from "../../types";
 
 const Home: NextPage = () => {
   const mainProjects = useGetItems(mainData);
   const getMoreProjects = useGetItems(moreProjectsData);
+  const getJobExperiences = useGetItems(jobExperiences);
   const [showMoreProjects, setShowMoreProjects] = useState<boolean>(false);
 
-  const btnText = showMoreProjects ? "Show Less" : `Load more projects... (${getMoreProjects.length})`;
+  const btnText = showMoreProjects
+    ? "Show Less"
+    : `Load more projects... (${getMoreProjects.length})`;
 
-  const handleClick = ()=> {
+  const handleClick = () => {
     setShowMoreProjects(!showMoreProjects);
-  }
+  };
 
   return (
-    <div className="bg-slate-800 text-slate-50 flex min-h-screen flex-col items-center justify-center py-10">
+    <div className="text-slate-50 flex min-h-screen flex-col items-center justify-center py-10">
       <Head>
         <title>Alejandro Mena - Website</title>
         <link rel="icon" href="/favicon.ico" />
@@ -26,14 +32,16 @@ const Home: NextPage = () => {
 
       <main className="flex flex-col gap-10 max-w-screen-sm">
         <header>
-          <h1 className="text-center md:text-left px-2 text-4xl font-bold mb-5">👋 I'm Alejandro!</h1>
+          <h1 className="text-center md:text-left px-2 text-4xl font-bold mb-5">
+            👋 I'm Alejandro!
+          </h1>
           <p className="text-center md:text-left px-2">
             I'm currently doing frontend, but I really love to create things, so
             my goal is to learn things that help me create other things.
           </p>
         </header>
 
-        <section className="">
+        <section className="bg-transparent">
           <h2 className="text-center md:text-left text-3xl font-semibold mb-5">
             Projects I've worked on
           </h2>
@@ -44,15 +52,15 @@ const Home: NextPage = () => {
             getMoreProjects.map((project) => (
               <ProjectCard key={project.title} project={{ ...project }} />
             ))}
-          <div className="flex cursor-pointer hover:underline justify-center mt-3 text-blue-500">
-            <button onClick={handleClick}>
-              {btnText}
-            </button>
+          <div className="flex cursor-pointer hover:underline justify-center mt-3 text-zinc-400">
+            <button onClick={handleClick}>{btnText}</button>
           </div>
         </section>
 
         <section>
-          <h2 className="text-center px-2 md:text-left text-3xl font-semibold mb-5">About me</h2>
+          <h2 className="text-center px-2 md:text-left text-3xl font-semibold mb-5">
+            About me
+          </h2>
           <p className="text-center px-2 md:text-left">
             {`I'm Venezuelan but currently live in Peru. I am passionate about
             technology and personal growth. I love to sing (I'm not a good
@@ -69,6 +77,17 @@ const Home: NextPage = () => {
             <li></li>
           </ul>
         </section> */}
+
+        <section className="mx-auto md:mx-0">
+          <h2 className="text-center px-2 md:text-left text-3xl font-semibold mb-5">
+            Job Experience
+          </h2>
+          <div className="flex flex-col space-y-6 md:space-y-0 md:flex-row md:justify-between">
+            {getJobExperiences.map((job) => (
+              <ExperienceCard key={job.id} job={job} />
+            ))}
+          </div>
+        </section>
       </main>
 
       <footer className=""></footer>

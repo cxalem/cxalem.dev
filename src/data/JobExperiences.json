@@ -1,0 +1,18 @@
+{
+  "serif": {
+    "company": "Serif, Inc",
+    "role": "Software Engineer",
+    "description": "I worked with Serif as a contractor. Here my role was to develop solutions to the app we have built for their web3 community. Here I have created scripts for automations, endpoints to fetch data after the minting, galleries, landing pages and so on.",
+    "date": "2022",
+    "company_link": "https://www.serif.space/",
+    "company_logo": "https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F5cc68e14-138b-4c39-a85a-28e58a810264%2Fserif.png?table=block&id=ab6855dc-2f76-4f3f-9d8f-8faf24fe937d&spaceId=f4b39258-8c2f-46b2-bf6e-5ed2bbe98d93&width=2000&userId=b5d9e56c-d386-48d8-bfda-deb6eaf84065&cache=v2"
+  },
+  "MAG-THEBAY": {
+    "company": "MAG-THEBAY",
+    "role": "Freelance",
+    "description": "I created a site for their NGO using Next.js and SSG, Tailwind, MDX files and JSON files. I also created a CRUD system where they were able to register beneficiaries using Firebase, Firebase auth, Next.js, SSR and Tailwind.",
+    "date": "2022",
+    "company_link": "https://mag-thebay-a7r847osl-cxalem.vercel.app/",
+    "company_logo": "https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F1b0b811f-95b6-4fcd-8cec-864706d87c45%2Fmag-thebay.png?table=block&id=46a09b22-7bde-4105-a0e2-2c8827e215b4&spaceId=f4b39258-8c2f-46b2-bf6e-5ed2bbe98d93&width=2000&userId=b5d9e56c-d386-48d8-bfda-deb6eaf84065&cache=v2"
+  }
+}
