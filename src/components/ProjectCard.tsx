@@ -7,7 +7,7 @@ type Props = {
 
 const ProjectCard: React.FC<Props> = ({ project }) => {
   return (
-    <div className="flex flex-col gap-4 border-b-2 border-slate-600 bg-slate-900 bg-opacity-60 hover:bg-opacity-40 p-4 ">
+    <div className="flex flex-col gap-4 border-b-2 border-slate-600 bg-zinc-900 hover:bg-zinc-800 p-4 ">
       <div className="flex flex-col gap-1">
         <h3 className="text-xl font-mono font-semibold">{project.title}</h3>
         <div className="flex gap-2 flex-wrap">
