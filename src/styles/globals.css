@@ -2,10 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  background: #18181b;
+}
+
 body {
-    background-image: radial-gradient(#212121 10%, #18181b 20%);
-    background-position: 0 0;
-    background-size: 10px 10px;
-    height: 200px;
-    width: 100%;
-  }
+  background-image: radial-gradient(#212121 10%, #18181b 20%);
+  background-position: 0 0;
+  background-size: 10px 10px;
+}

@@ -6,13 +6,6 @@
     "repourl": "",
     "liveurl": "https://Wen.sh"
   },
-  "product-page": {
-    "title": "Product Page (Frontend Mentor challenge)",
-    "description": "Product page for a Frontend Mentor challenge. (It is not responsive, I know. I learned mobile first here, sorry for that 😔)",
-    "technologies": ["Next.js", "SASS", "Node.js", "MongoDB"],
-    "repourl": "https://github.com/cxalem/product-page",
-    "liveurl": "https://product-page-theta.vercel.app/"
-  },
   "personal-card": {
     "title": "Personal Card",
     "description": "Made with JavaScript Native WebComponents in order to undestand them. Pretty simple project, but it helped me to understand components based apps.",
