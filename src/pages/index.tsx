@@ -82,34 +82,34 @@ const Home: NextPage = () => {
           <h2 className="text-center md:text-left text-3xl font-semibold">
             🎥 Published content
           </h2>
-          <div className="space-y-4 border p-6 rounded-lg">
+          <div className="space-y-4 border p-6 rounded-lg border-gray-600">
             <div className="flex justify-between items-center">
               <a
                 target="_blank"
                 href="https://www.youtube.com/watch?v=74clgGR6rok"
-                className="text-lg font-medium text-blue-100 underline"
+                className="text-lg font-medium text-gray-300 underline"
               >
                 How to use the Infura Gas API
               </a>{" "}
               <YouTubeIcon />
             </div>
-            <p>
+            <p className="opacity-70">
               In this video, I explain how to create a request to the Infura Gas
               API to retrieve Gas Fees for various networks.
             </p>
           </div>
-          <div className="space-y-4 border p-6 rounded-lg">
+          <div className="space-y-4 border p-6 rounded-lg border-gray-600">
             <div className="flex justify-between items-center">
               <a
                 target="_blank"
                 href="https://www.instagram.com/p/CzexQJ0pFZs/"
-                className="text-lg font-medium text-blue-100 underline"
+                className="text-lg font-medium text-gray-300 underline"
               >
                 How to create a connect wallet button
               </a>{" "}
               <InstagramIcon />
             </div>
-            <p>
+            <p className="opacity-70">
               In this video, I explain how to create a connect wallet button
               using the MetaMask SDK and Next.js.
             </p>
