@@ -7,7 +7,6 @@ import mainData from "../data/ProjectsData.json";
 import moreProjectsData from "../data/ProjectsData2.json";
 import jobExperiences from "../data/JobExperiences.json";
 import { ExperienceCard } from "../components/ExperienceCard";
-import { JobDescription } from "../../types";
 
 const Home: NextPage = () => {
   const mainProjects = useGetItems(mainData);
@@ -36,8 +35,18 @@ const Home: NextPage = () => {
             👋 I'm Alejandro!
           </h1>
           <p className="text-center md:text-left px-2">
-            I'm currently doing frontend, but I really love to create things, so
-            my goal is to learn things that help me create other things.
+            I'm currently working as a Software Engineer at{" "}
+            <a className="text-green-400" href="https://consensys.io/">
+              ConsenSys
+            </a>
+            ! And I'm currently building my{" "}
+            <a
+              className="text-blue-400"
+              href="https://github.com/cxalem/personal-assistant"
+            >
+              Personal Assistant
+            </a>{" "}
+            using Next.js and OpenAI. 📍 Based in Lima, Peru.
           </p>
         </header>
 
@@ -62,12 +71,7 @@ const Home: NextPage = () => {
             About me
           </h2>
           <p className="text-center px-2 md:text-left">
-            {`I'm Venezuelan but currently live in Peru. I am passionate about
-            technology and personal growth. I love to sing (I'm not a good
-            singer 😅), to write (I think I'm good here but I'm not doing this
-            very often lately 😔), to talk with people (trust me, I really love
-            to talk 😄), to code (since I started I haven't stoped), all the space
-            stuff and learning new things.`}
+            {`I'm Venezuelan. I am passionate about technology and personal growth. I love to create, learn and share.`}
           </p>
         </section>
 
@@ -82,7 +86,7 @@ const Home: NextPage = () => {
           <h2 className="text-center px-2 md:text-left text-3xl font-semibold mb-5">
             Job Experience
           </h2>
-          <div className="flex flex-col space-y-6 md:space-y-0 md:flex-row md:justify-between">
+          <div className="flex flex-col space-y-6 md:space-y-0 md:grid md:grid-cols-2 md:gap-5">
             {getJobExperiences.map((job) => (
               <ExperienceCard key={job.id} job={job} />
             ))}

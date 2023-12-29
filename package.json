@@ -6,6 +6,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@codaworks/react-glow": "^1.0.5",
     "next": "latest",
     "react": "18.1.0",
     "react-dom": "18.1.0"
