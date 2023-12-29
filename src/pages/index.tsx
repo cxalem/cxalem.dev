@@ -35,11 +35,11 @@ const Home: NextPage = () => {
             👋 I'm Alejandro!
           </h1>
           <p className="text-center md:text-left">
-            I'm currently working as a Software Engineer at{" "}
+            I'm a Full Stack Developer currently working as a Software Engineer at{" "}
             <a className="text-green-400" href="https://consensys.io/">
               ConsenSys
             </a>
-            ! And I'm currently building my{" "}
+            ! I'm currently building my{" "}
             <a
               className="text-blue-400"
               href="https://github.com/cxalem/personal-assistant"
@@ -80,7 +80,7 @@ const Home: NextPage = () => {
             🎥 Published content
           </h2>
           <div className="space-y-4">
-            <h3 className="text-lg font-medium">How to use the Infura Gas API</h3>
+            <h3 className="text-lg font-medium text-blue-100">How to use the Infura Gas API</h3>
             <p>In this video, I explain how to create a request to the Infura Gas API to retrieve Gas Fees for various networks.</p>
             <iframe
               width="853"
