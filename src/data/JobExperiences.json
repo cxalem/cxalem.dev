@@ -7,6 +7,14 @@
     "company_link": "https://consensys.io/",
     "company_logo": "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Ff4b39258-8c2f-46b2-bf6e-5ed2bbe98d93%2Fbc689959-5986-4e96-a089-56b227bc2a57%2FUntitled.png?table=block&id=86173496-33f0-4b2e-bb37-660fbb16eb81&spaceId=f4b39258-8c2f-46b2-bf6e-5ed2bbe98d93&width=2000&userId=b5d9e56c-d386-48d8-bfda-deb6eaf84065&cache=v2"
   },
+  "globant": {
+    "company": "Globant",
+    "role": "Frontend Developer",
+    "description": "In my role here, I designed, maintained, and developed new features using React, React Native, TypeScript, Redux, and Next.js. Additionally, I explored GraphQL, Apollo, and AWS during my time with the team.",
+    "date": "2022 - 2023",
+    "company_link": "https://www.globant.com/",
+    "company_logo": "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Ff4b39258-8c2f-46b2-bf6e-5ed2bbe98d93%2F53030f62-3041-46f7-bafb-62130a14589f%2FGlobant_-_Logo.png?table=block&id=a42bad04-b53a-4a76-bc11-de075881d2fc&spaceId=f4b39258-8c2f-46b2-bf6e-5ed2bbe98d93&width=2000&userId=b5d9e56c-d386-48d8-bfda-deb6eaf84065&cache=v2"
+  },
   "serif": {
     "company": "Serif, Inc",
     "role": "Software Engineer",
@@ -17,8 +25,8 @@
   },
   "MAG-THEBAY": {
     "company": "MAG-THEBAY",
-    "role": "Freelance",
-    "description": "I created a site for their NGO using Next.js and SSG, Tailwind, MDX files and JSON files. I also created a CRUD system where they were able to register beneficiaries using Firebase, Firebase auth, Next.js, SSR and Tailwind.",
+    "role": "Vendor",
+    "description": "I created a site for their NGO using Next.js and SSG, Tailwind, MDX files and JSON files. I also created a CRUD system where they were able to register beneficiaries using Firebase, Firebase auth, Next.js, Node.js and Tailwind.",
     "date": "2022",
     "company_link": "",
     "company_logo": "https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F1b0b811f-95b6-4fcd-8cec-864706d87c45%2Fmag-thebay.png?table=block&id=46a09b22-7bde-4105-a0e2-2c8827e215b4&spaceId=f4b39258-8c2f-46b2-bf6e-5ed2bbe98d93&width=2000&userId=b5d9e56c-d386-48d8-bfda-deb6eaf84065&cache=v2"

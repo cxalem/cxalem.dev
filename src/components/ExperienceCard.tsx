@@ -11,7 +11,7 @@ export const ExperienceCard: React.FC<Props> = ({ job }) => {
     <a
       target="_blank"
       href={`${job.company_link}`}
-      className="rounded-lg border w-fit p-6 cursor-pointer flex transition-shadow hover:shadow-zinc-800 hover:shadow-xl"
+      className="rounded-lg border w-full p-6 cursor-pointer flex transition-shadow hover:shadow-zinc-800 hover:shadow-xl"
     >
       <div className="flex flex-col justify-between">
         <div className="flex justify-between mb-4">

@@ -7,6 +7,8 @@ import mainData from "../data/ProjectsData.json";
 import moreProjectsData from "../data/ProjectsData2.json";
 import jobExperiences from "../data/JobExperiences.json";
 import { ExperienceCard } from "../components/ExperienceCard";
+import YouTubeIcon from "../components/icons/YouTubeIcon";
+import InstagramIcon from "../components/icons/InstagramIcon";
 
 const Home: NextPage = () => {
   const mainProjects = useGetItems(mainData);
@@ -35,7 +37,8 @@ const Home: NextPage = () => {
             👋 I'm Alejandro!
           </h1>
           <p className="text-center md:text-left">
-            I'm a Full Stack Developer currently working as a Software Engineer at{" "}
+            I'm a Full Stack Developer currently working as a Software Engineer
+            at{" "}
             <a className="text-green-400" href="https://consensys.io/">
               ConsenSys
             </a>
@@ -75,21 +78,41 @@ const Home: NextPage = () => {
           </p>
         </section>
 
-        <section>
-          <h2 className="text-center md:text-left text-3xl font-semibold mb-5">
+        <section className="space-y-5">
+          <h2 className="text-center md:text-left text-3xl font-semibold">
             🎥 Published content
           </h2>
-          <div className="space-y-4">
-            <h3 className="text-lg font-medium text-blue-100">How to use the Infura Gas API</h3>
-            <p>In this video, I explain how to create a request to the Infura Gas API to retrieve Gas Fees for various networks.</p>
-            <iframe
-              width="853"
-              height="480"
-              src={`https://www.youtube.com/embed/74clgGR6rok`}
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              title="Embedded youtube"
-              className="w-full"
-            />
+          <div className="space-y-4 border p-6 rounded-lg">
+            <div className="flex justify-between items-center">
+              <a
+                target="_blank"
+                href="https://www.youtube.com/watch?v=74clgGR6rok"
+                className="text-lg font-medium text-blue-100 underline"
+              >
+                How to use the Infura Gas API
+              </a>{" "}
+              <YouTubeIcon />
+            </div>
+            <p>
+              In this video, I explain how to create a request to the Infura Gas
+              API to retrieve Gas Fees for various networks.
+            </p>
+          </div>
+          <div className="space-y-4 border p-6 rounded-lg">
+            <div className="flex justify-between items-center">
+              <a
+                target="_blank"
+                href="https://www.instagram.com/p/CzexQJ0pFZs/"
+                className="text-lg font-medium text-blue-100 underline"
+              >
+                How to create a connect wallet button
+              </a>{" "}
+              <InstagramIcon />
+            </div>
+            <p>
+              In this video, I explain how to create a connect wallet button
+              using the MetaMask SDK and Next.js.
+            </p>
           </div>
         </section>
 
@@ -102,7 +125,7 @@ const Home: NextPage = () => {
 
         <section className="mx-auto md:mx-0">
           <h2 className="text-center md:text-left text-3xl font-semibold mb-5">
-          👨‍💻 Job Experience
+            👨‍💻 Job Experience
           </h2>
           <div className="flex flex-col space-y-6 md:space-y-0 md:grid md:grid-cols-2 md:gap-5">
             {getJobExperiences.map((job) => (
