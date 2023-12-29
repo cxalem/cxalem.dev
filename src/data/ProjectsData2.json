@@ -2,7 +2,7 @@
   "personal-assistant": {
     "title": "Personal Assistant",
     "description": "A personal assistant developed using the OpenAI API, capable of conversing with you and responding in an AI-generated voice.",
-    "technologies": ["TypeScript", "Next.js", "Web3"],
+    "technologies": ["TypeScript", "Next.js", "OpenAI"],
     "repourl": "https://github.com/cxalem/personal-assistant",
     "liveurl": ""
   },
