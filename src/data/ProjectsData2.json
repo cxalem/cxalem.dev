@@ -1,10 +1,10 @@
 {
-  "personal-assistant": {
-    "title": "Personal Assistant",
-    "description": "A personal assistant developed using the OpenAI API, capable of conversing with you and responding in an AI-generated voice.",
-    "technologies": ["TypeScript", "Next.js", "OpenAI"],
-    "repourl": "https://github.com/cxalem/personal-assistant",
-    "liveurl": ""
+  "form-xchange": {
+    "title": "Form-XChange",
+    "description": "A feedback form application built on top of Linea ZKEVM.",
+    "technologies": ["Next.js", "Tailwind", "Solidity", "Linea"],
+    "repourl": "https://github.com/Consensys/Form-XChange",
+    "liveurl": "https://form-x-change.vercel.app/"
   },
   "crypto-app": {
     "title": "Crypto App",

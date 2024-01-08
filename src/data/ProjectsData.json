@@ -1,4 +1,11 @@
 {
+  "personal-assistant": {
+    "title": "Personal Assistant",
+    "description": "A personal assistant developed using the OpenAI API, capable of conversing with you and responding in an AI-generated voice.",
+    "technologies": ["TypeScript", "Next.js", "OpenAI"],
+    "repourl": "https://github.com/cxalem/personal-assistant",
+    "liveurl": "https://assistant.alejandromena.xyz/"
+  },
   "eventsea": {
     "title": "Eventsea",
     "description": "EventSea is a decentralized events platform for events organizers and attendees. Built on the top of Linea, EventSea offers a transparent, secure, and user-centric platform for event creation and ticketing.",
@@ -12,12 +19,5 @@
     "technologies": ["Next.js", "Tailwind", "IPFS", "IPNS"],
     "repourl": "https://github.com/Consensys/polis",
     "liveurl": "https://polis-nine.vercel.app/"
-  },
-  "form-xchange": {
-    "title": "Form-XChange",
-    "description": "A feedback form application built on top of Linea ZKEVM.",
-    "technologies": ["Next.js", "Tailwind", "Solidity", "Linea"],
-    "repourl": "https://github.com/Consensys/Form-XChange",
-    "liveurl": "https://form-x-change.vercel.app/"
   }
 }
