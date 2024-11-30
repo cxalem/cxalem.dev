@@ -1,6 +1,6 @@
 import type { DataSlug, Job } from "../../types";
 
-export const useGetItems = (data: DataSlug | Job) => {
+export const getItems = (data: DataSlug | Job) => {
   return [
     ...Object.entries(data).map(([id, key]) => {
       return {

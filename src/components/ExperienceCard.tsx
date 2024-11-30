@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Image from "next/image";
 import { JobDescription } from "../../types";
 
@@ -24,7 +23,7 @@ export const ExperienceCard: React.FC<Props> = ({ job }) => {
             </span>
           </div>
           <div className="my-auto cursor-pointer">
-            <Image src={job.company_logo} width={40} height={40} />
+            <Image alt="logo" src={job.company_logo} width={40} height={40} />
           </div>
         </div>
         <p className="px-2 pb-4 text-base opacity-70">{job.description}</p>
